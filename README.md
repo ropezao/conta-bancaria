@@ -1,18 +1,33 @@
-## Getting Started
+# Desafio cadastro conta bancaria 
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Crie o projeto `Conta-Bancaria `que receberá dados via terminal contendo as características de conta em banco conforme atributos abaixo:
 
-## Folder Structure
+* Dentro do projeto, crie a classe `ContaTerminal.java` para realizar toda a codificação do nosso programa.
 
-The workspace contains two folders by default, where:
+* Revise sobre regras de declaração de variáveis
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+* Atributo	Tipo	Exemplo
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+* Numero	Inteiro	1021
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+* Agencia	Texto	067-8
 
-## Dependency Management
+* Nome `Cliente`	Texto exemplo 	MARIO ANDRADE
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+* Decimal `Saldo` 	237.48
+
+* Revise sobre terminal, main args e a classe Scanner
+
+#### Permita que os dados sejam inseridos via terminal sendo que o usuário receberá a mensagem de qual informação será solicitada, exemplo:
+
+
+- Programa: "Por favor, digite o número da Agência !"
+- Usuário: 1021 (depois ENTER para o próximo campo)
+- Revise sobre concatenação e classe String com método concat
+- Depois de todas as informações terem sido inseridas, o sistema deverá exibir a seguinte mensagem:
+
+"Olá [Cliente], obrigado por criar uma conta em nosso banco, sua agência é [xxxx], conta [xxxxx] e seu saldo [xxx.xx] já está disponível para saque".
+
+* Os campos em [ ] devem ser alterados pelas informações que forem inseridas pelos usuários.
+
+![CapturarBanco](https://user-images.githubusercontent.com/97926394/182492778-e51804bf-cc01-4d97-8526-b52fcb1eb87e.PNG)
